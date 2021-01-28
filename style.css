@@ -35,6 +35,25 @@ h2 {
 h3 {
 	font-size: 1.6em;
 }
+h4{
+	font-size:2.2em;
+}
+
+h5 {
+	font-size: 1.2em;
+	margin: 0px;
+}
+h6 {
+	font-size:1.2em;
+	text-align:Right;
+	margin: 0px;
+}
+
+h7 {
+	font-size:1.2em;
+	text-align:Right;
+	margin-top:1000px;
+}
 
 p, ul, ol {
 	margin-top: 0;
@@ -67,7 +86,7 @@ a:hover {
 
 #logo {
 	margin: 0px;
-	padding: 30px 0px;
+	padding: 0px 0px;
 	color: #000000;
 }
 
@@ -85,6 +104,10 @@ a:hover {
 }
 
 #logo h1 span {
+	color: #F6B300;
+}
+
+#logo h4 span{
 	color: #F6B300;
 }
 
@@ -106,6 +129,11 @@ a:hover {
 	text-decoration: none;
 	color: #323030;
 }
+#logo menu-logo {
+	float: left;
+	width: 50px;
+}
+
 
 /* Search */
 
@@ -153,13 +181,17 @@ a:hover {
 	height: 56px;
 	background: #3E282A;
 	border-top: 1px solid #3D2729;
+	position:fixed;
+  	top: 0;
+  	width: 100%;
 }
 
 #menu {
 	width: 1000px;
-	height: 55px;
+	height: 50px;
 	margin: 0px auto;
 	padding: 0px;
+
 }
 
 #menu ul {
@@ -210,12 +242,14 @@ a:hover {
 	padding: 30px 0px;
 }
 
+
 /* Content */
 
 #content {
 	float: left;
 	width: 640px;
 }
+
 
 .post {
 	margin-bottom: 15px;
@@ -232,10 +266,14 @@ a:hover {
 }
 
 .post .title {
+	margin-top:14px;
 	height: 38px;
 	margin-bottom: 10px;
 	padding: 12px 0 0 0px;
 	font-size: 32px;
+}
+.post a span{
+	color: #ff6900;
 }
 
 .post .title a {
@@ -400,6 +438,7 @@ a:hover {
 }
 
 #banner {
+	margin-top:0px;
 	width: 1000px;
 	margin: 0px auto;
 }
